@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+<link type="text/css" rel="stylesheet" href="responsive.css">
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+</head>
+
+<body>
+	<li><a href="product Listing.html">Product Listing</a></li>
+    <li><a href="order.html">Order</a></li>
+    <li><a href="checkout.html">Check Out</a></li>
+    <li><a href="payment.html">Payment</a></li>
+    <li><a href="endpayment.html">End Payment</a></li>
+<div class="search-container">
+  <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i>Seach</button>
+    </form>
+	<form action="/action_page.php">
+	<h1>Pay Invoice</h1>
+  Payment Amount:<br>
+  <input type="text" name="payment amount" value="Total price">
+  <br>
+  Name On Card:<br>
+  <input type="text" name="name on card" value="Name of Card">
+  <br><br>
+  Card Number:<br>
+  <input type="text" name="card number" value="Card number">
+  <br><br>
+  Expiry Date:<br>
+  <input type="text" name="expiry date" value="DD/MM/YY">
+  <br><br>
+</form> 
+	<form action="/action_page.php">
+Please select Your credit card:
+<br>
+  <input type="radio" name="Cradit Card" value="Master"> Master<br>
+  <input type="radio" name="Cradit Card" value="Visa"> Visa<br>
+	</form>
+	<img src="images/mastercard-logo-visa.png" width="250" height="100" alt="">
+	<br>
+	<a href="endpayment.html">
+   	 <input type="submit" value="Payment success"/>
+	</a>
+	</div>
+</body>
+</html>
